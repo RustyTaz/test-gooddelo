@@ -1,0 +1,31 @@
+.sevice-container{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    align-content: space-around;
+}
+
+.service-card {
+    
+    height: 200px;
+    max-width: 390px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+.service-name {
+    background-color: rgb(158, 157, 157);
+    text-transform: uppercase;
+    margin-top: 50px;
+	font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFF;
+}
