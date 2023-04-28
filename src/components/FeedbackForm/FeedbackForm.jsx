@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./FeedbackForm.css"; // Import the CSS file
+import "./FeedbackForm.css"; 
+import MyButton from "../UI/MyButton/MyButton";
 
 function FeedbackForm() {
   const [name, setName] = useState("");
@@ -21,12 +22,12 @@ function FeedbackForm() {
       <h1 className="feedback-heading">Получите консультацию</h1>
       <form onSubmit={handleSubmit} className="feedback-form">
         <label>
-          Name:
+          Имя:
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
         </label>
         <br />
         <label>
-          Phone:
+          Телефон:
           <input type="text" value={phone} onChange={(e) => setPhone(e.target.value)} />
         </label>
         <br />
@@ -35,7 +36,7 @@ function FeedbackForm() {
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <br />
-        <button type="submit">Send</button>
+        <MyButton> Отправить</MyButton>
       </form>
     </div>
   );

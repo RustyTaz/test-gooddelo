@@ -3,7 +3,7 @@ import FeedbackForm from '../components/FeedbackForm/FeedbackForm'
 
 export default function Contacts() {
   return (
-    <div>Contacts
+    <div>
       <FeedbackForm/>
     </div>
   )

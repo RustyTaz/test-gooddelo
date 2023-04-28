@@ -17,7 +17,7 @@ export default function Footer() {
 			</div>
 			<ul>
 				<Link to="/about">О КОМПАНИИ</Link>
-                <Link to="/sevices">УСЛУГИ</Link>
+                <Link to="/services">УСЛУГИ</Link>
 				<Link to="/completedwork"> РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</Link>
 				<Link to="/contacts"> КОНТАКТЫ</Link>
 			</ul>

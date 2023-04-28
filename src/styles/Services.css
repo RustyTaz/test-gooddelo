@@ -1,13 +1,12 @@
 .sevice-container{
-    height: 600px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; 
     align-content: space-around;
+    margin-bottom: 150px;
 }
 
 .service-card {
-    
     height: 200px;
     max-width: 390px;
     margin-top: 20px;
